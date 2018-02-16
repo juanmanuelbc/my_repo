@@ -8,11 +8,16 @@
 				var num = document.getElementById("n1");
 				num.value = Math.pow(num.value, 3);
 			}
+                        function sine() {
+                                var num = document.getElementById("n1");
+                                num.value = Math.sin(num.value);
+                        }
 		</script>
 	</head>
 	<body>
 		<h1>Calculadora de Juan Manuel Bennàssar Carretero</h1>
 		<p>Number: <input type="text" id="n1"></p>
 		<button onclick="cube();">x<sup>3</sup></button>
+		<button onclick="sine();">sin(x)</button>
 	</body>
 </html>
